@@ -40,7 +40,7 @@
 
 }
 
-.debug .contenuto{
+.debug .contenuto {
     border: dashed 1px black;
 }
 
@@ -50,46 +50,49 @@
 
 }
 
-.debug .grigio{
+.debug .grigio {
     background-color: lightgrey;
 }
 
-.debug .content-grande{
+.debug .content-grande {
     background-color: green;
     border: 2px dashed black;
 }
 
-.debug .finale-top{
+.debug .finale-top {
     background-color: rgb(37, 35, 35);
 }
 
 
-.debug .finale-bottom{
+.debug .finale-bottom {
     background-color: rgb(37, 35, 35);
 }
 
-.debug .foot-bottom{
+.debug .foot-bottom {
     background-color: greenyellow;
 }
 
-.debug .info{
+.debug .col {
     background-color: beige;
     border: dashed 1px black;
 }
 
-.logo-footer, .bottone-footer{
+.logo-footer,
+.bottone-footer {
     border: dashed 1px black;
 }
 
-.debug .foot-top{
+.debug .foot-top {
     background-color: rosybrown;
 }
+
 /*start header*/
 .flex-container {
     justify-content: center;
     align-items: center;
     display: flex;
 }
+
 .head-top {
     height: 15%;
     justify-content: center;
@@ -133,6 +136,7 @@
     width: 60%;
     height: 80%;
 }
+
 /*start main*/
 .principale {
     height: 400px;
@@ -154,35 +158,36 @@
     height: 100%;
 }
 
- .grande{
+.grande {
     height: 600px;
 }
 
-.content-grande{
+.content-grande {
     width: 70%;
     height: calc(100% - 80px);
 }
 /*start footer*/
-.finale-top{
+.finale-top {
     height: 400px;
     border-bottom: 2px solid wheat;
     padding: 20px;
 }
 
-.foot-top{
-    margin: auto ;
+.foot-top {
+    margin: auto;
     width: 70%;
-    height: 80%; 
-    display: flex;  
+    height: 80%;
+    display: flex;
 }
 
-.finale-bottom{
+.finale-bottom {
     height: 100px;
     justify-content: center;
     align-items: flex-end;
+    flex-direction: row-reverse;
 }
 
-.foot-bottom{
+.foot-bottom {
     width: 70%;
     height: 80%;
     display: flex;
@@ -190,14 +195,16 @@
     align-items: center;
 }
 
-.info{
-    width: 20%;
-}
-.info .uno{
-    /*da fare!!!!*/
+.col {
+    width: 18%;
 }
 
-.logo-footer, .bottone-footer{
+.uno {
+    width: 28%;
+}
+
+.logo-footer,
+.bottone-footer {
     width: 60px;
     height: 50px;
 }
