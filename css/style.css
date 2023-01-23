@@ -5,38 +5,65 @@
 }
 
 /*debug*/
-header {
+.debug header{
     height: 300px;
 }
+
+.debug .head-bottom {
+    background-color: blue;
+}
+
+.debug .header-nav {
+    background-color: orange;
+}
+
+.debug .head-top {
+    background-color: aquamarine;
+}
+
+.debug .tasti {
+    border: dashed 2px black;
+}
+
+.debug .sez-uno{
+    border: 2px solid black;
+}
+
+.debug .head {
+    background-color: violet;
+}
+
+
 
 /*css*/
 
 .flex-container {
+    justify-content: center;
+    align-items: center;
     display: flex;
 }
 
+
+/*start header*/
 .head-top {
     height: 15%;
-    background-color: aquamarine;
     justify-content: center;
     align-items: center;
 }
 
 .head-bottom {
     height: 85%;
-    background-color: blue;
+
 }
 
 .header-nav {
     width: 60%;
     height: 80%;
-    background-color: orange;
     justify-content: space-between;
     align-items: center;
 }
 
 .tasti {
-    border: dashed 2px black;
     flex-grow: 1;
     height: 100%;
 }
@@ -50,12 +77,18 @@ header {
     flex-grow: 2;
     justify-content: center;
     align-items: center;
-
 }
 
 .login {
-
     justify-content: flex-end;
     align-items: center;
     padding-right: 10px;
 }
+
+.head {
+    width: 50%;
+    height: 80%;
+}
+
+/*start main*/
+
