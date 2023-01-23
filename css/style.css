@@ -33,6 +33,15 @@
     background-color: violet;
 }
 
+.debug .content-destra{
+    background-color: chartreuse;
+   
+}
+
+.debug .content-sinistra{
+    background-color: brown;
+    
+}
 
 
 /*css*/
@@ -92,3 +101,25 @@
 
 /*start main*/
 
+.principale{
+    height: 400px;
+}
+
+.contenuto{
+    width: 70%;
+    height: 80%;
+    justify-content: flex-start;
+   
+}
+
+.content-sinistra{
+    width: 40%;
+    height: 100%;
+}
+
+.content-destra{
+  
+    width: 60%;
+   height: 100% ;
+   
+}
