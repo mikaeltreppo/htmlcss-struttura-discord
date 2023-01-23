@@ -61,9 +61,8 @@
 
 .debug .finale-top {
     background-color: rgb(37, 35, 35);
+    border-bottom: 2px solid wheat;
 }
-
-
 .debug .finale-bottom {
     background-color: rgb(37, 35, 35);
 }
@@ -169,7 +168,7 @@
 /*start footer*/
 .finale-top {
     height: 400px;
-    border-bottom: 2px solid wheat;
+  
     padding: 20px;
 }
 
